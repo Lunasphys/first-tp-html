@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/index.css">
+    <title>Souffle froid</title>
+    <script>
+        function validateAnswer() {
+            var correctAnswers = ['Silence','silence','le silence'];
+            if(correctAnswers.find(goodAnswer => goodAnswer==document.getElementById('name').value)){
+                document.location = 'page4.html';
+            }
+            else {
+                alert('Mauvaise réponse');
+            }
+        }
+    </script>
+</head>
+<body class="background-castle">
+    <span class="main-title">
+        <h1 class="main-title-text title-background-color-page-1">L'incroyable voyage</h1>
+        <span class="sub-title">
+            <h2  class="subtitle-text title-background-color-page-1 title-background-width-page-1">2 : Suivre le vent</h2>
+        </span>
+    </span>
+    <span class="container container-page-1">
+        <span class="content">
+            <div>L'état de confinement dans lequel vous êtes vous donne l'impression de suffoquer peu à peu. </div>
+            <div>Pour vous, il n'y a qu'un seul choix possible, celui d'essayer de trouver la sortie et potentiellement rejoindre l'extérieur.</div>
+            <div>En longeant le mur vous découvrez non loin de votre position initiale une échelle en bois. Elle a l'air ancienne et en mauvaise état. Vous décidez d'y grimper.</div>
+            <div>Après ce qui pour vous semble une éternité, vous parvenez à atteindre le sommet. La simple brise s'est transformée en de fortes bourrasques et manquent à plusieurs reprises de vous faire tomber.</div>
+            <div>Devant vous, une lueur éclatante vous aveugle au fur et à mesure de votre progression.</div>
+            <div>Vous y voilà ! Vous contemplez devant vous un paysage digne des meilleurs récits fantastiques. Un immense pont de pierre se dresse devant vous et semble mener à une tour à moitié masquée par les nuages.</div>
+            <div>Votre premier pas semble incertain mais votre détermination est plus forte que votre peur. Vous traversez le pont sans peines et arrivez au pied du spectaculaire bâtiment.</div>
+            <div>A votre grand étonnement vous ne trouvez pas de point d'entrée. Après des heures à avoir scruter avec minutie chaque pierre vous décidez de faire une pause et de contempler le ciel.</div>
+            <div>Une heure se passe... Vous perdez patience. Vous assenez un énorme coup de pied sur l'édifice et perdez l'équilibre. </div>
+            <div>En l'espace d'une seconde, les murs se mettent à trembler et une étrange inscription vint se dessiner sur la paroie face à vous.</div></p>
+            <p>Une voix grave et mystérieuse énonce le texte. Cela ressemble à une énigme. </p>
+            <p><strong>"J'espère pour vous que votre bêtise n'est pas à la hauteur de votre courage. Vous seriez bien mal lotis. Réflechissez bien avant de me répondre, vous n'avez le droit qu'à une seule tentative..</strong></p>
+        </span>
+        <span class="block-name">
+            <div>Qu'est-ce qui disparait quand on prononce son nom ?</div>
+            <input class="input-name" id="name" type="text">
+            <button onclick="validateAnswer()">Valider la reponse</button>
+        </span>
+    </span>
+</body>
+</html>
