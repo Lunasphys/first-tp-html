@@ -224,3 +224,15 @@ li {
     border: 2px solid #bf2e3d;
     border-radius: 7px;
 }
+
+body {
+    opacity: 0;
+    animation: fadeIn 0.5s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
