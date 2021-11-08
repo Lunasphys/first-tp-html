@@ -10,7 +10,7 @@
         function validateAnswer() {
             var correctAnswers = ['Silence','silence','le silence'];
             if(correctAnswers.find(goodAnswer => goodAnswer==document.getElementById('name').value)){
-                document.location = 'page4.html';
+                document.location = 'page7.html';
             }
             else {
                 alert('Mauvaise réponse');
@@ -38,10 +38,10 @@
             <div>Une heure se passe... Vous perdez patience. Vous assenez un énorme coup de pied sur l'édifice et perdez l'équilibre. </div>
             <div>En l'espace d'une seconde, les murs se mettent à trembler et une étrange inscription vint se dessiner sur la paroie face à vous.</div></p>
             <p>Une voix grave et mystérieuse énonce le texte. Cela ressemble à une énigme. </p>
-            <p><strong>"J'espère pour vous que votre bêtise n'est pas à la hauteur de votre courage. Vous seriez bien mal lotis. Réflechissez bien avant de me répondre, vous n'avez le droit qu'à une seule tentative..</strong></p>
+            <p><strong>J'espère pour vous que votre bêtise n'est pas à la hauteur de votre courage. Vous seriez bien mal lotis. Réflechissez bien avant de me répondre, vous n'avez le droit qu'à une seule tentative..</strong></p>
         </span>
         <span class="block-name">
-            <div>Qu'est-ce qui disparait quand on prononce son nom ?</div>
+            <div>Qu'est-ce qui disparait dès lors que l'on prononce son nom ?</div>
             <input class="input-name" id="name" type="text">
             <button onclick="validateAnswer()">Valider la reponse</button>
         </span>

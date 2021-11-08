@@ -44,6 +44,25 @@
     width: 430px;
 }
 
+.title-background-color-page-3 {
+    background-color: rgb(31 27 26);
+}
+
+.title-background-width-page-3 {
+    width: 430px;
+}
+
+.title-background-color-page-4 {
+    background-color:  rgb(10 29 32);
+}
+
+.title-background-color-page-6 {
+    background-color:  rgb(57 39 32);
+}
+
+.title-background-color-page-7 {
+    background-color:  rgb(43 43 43);
+}
 .container {
     display: flex;
     flex-direction: column;
@@ -56,12 +75,35 @@
     padding-top: 25px;
 } 
 
+.container-page-5 {
+    color: antiquewhite;
+    background-color: rgb(66 55 32  / 55%);
+}
+
 .container-index {
     background-color: rgb(19 92 75 / 80%);
 }
 
 .container-page-1 {
     background-color: rgb(146 55 35 / 80%);
+}
+
+.container-page-3 {
+    background-color: rgb(83 75 60 / 69%);
+    color: antiquewhite;
+}
+
+.container-page-4 {
+    background-color: rgb( 129 141 143 / 78%);
+}
+
+.container-page-6 {
+    background-color: rgb(96 74 61 / 78%);
+}
+
+.container-page-7 {
+    background-color: rgb( 66 66 66 / 78%);
+    color: aliceblue;
 }
 
 .background-lave {
@@ -75,6 +117,30 @@
 
 .background-castle {
     background-image: url('../img/castle.png');
+}
+
+.background-antre {
+    background: url(../img/antre.jpg) no-repeat center fixed;
+    background-size: cover;
+}
+.background-dragon {
+    background: url(../img/dragon2.jpg) no-repeat center fixed;
+    background-size: cover;
+}
+
+.background-chute {
+    background: url(../img/chute.jfif) no-repeat center fixed;
+    background-size: cover;
+}
+
+.background-tomber {
+    background: url(../img/tomber.jpg) no-repeat center fixed;
+    background-size: cover;
+}
+
+.background-souffledragon {
+    background: url(../img/souffledragon.jpg) no-repeat center fixed;
+    background-size: cover;
 }
 
 .skull-img {
@@ -122,6 +188,26 @@ li {
 
 .link-page-1 {
     background-color: rgb(60 12 12);
+    color: #cbcbcb;
+}
+
+.link-page-3 {
+    background-color: rgb(31 27 26);
+    color: #cbcbcb;
+}
+
+.link-page-4 {
+    background-color: rgb(5 23 24);
+    color: #cbcbcb;
+}
+
+.link-page-6 { 
+    background-color: rgb(57 39 32);
+    color: #cbcbcb;
+}
+
+.link-page-7 {
+    background-color: rgb(0 0 0);
     color: #cbcbcb;
 }
 
