@@ -1,3 +1,4 @@
+
 .main-title {
     display: block;
     text-align: center;
@@ -78,32 +79,44 @@
 .container-page-5 {
     color: antiquewhite;
     background-color: rgb(66 55 32  / 55%);
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .container-index {
     background-color: rgb(19 92 75 / 80%);
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .container-page-1 {
     background-color: rgb(146 55 35 / 80%);
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .container-page-3 {
     background-color: rgb(83 75 60 / 69%);
     color: antiquewhite;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .container-page-4 {
     background-color: rgb( 129 141 143 / 78%);
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .container-page-6 {
     background-color: rgb(96 74 61 / 78%);
+    margin-top: 3%;
 }
 
 .container-page-7 {
     background-color: rgb( 66 66 66 / 78%);
     color: aliceblue;
+    margin-top: 3%;
 }
 
 .background-lave {
@@ -230,6 +243,7 @@ body {
     animation: fadeIn 0.5s;
     animation-delay: 1s;
     animation-fill-mode: forwards;
+    height: 95vh;
 }
 
 @keyframes fadeIn {
