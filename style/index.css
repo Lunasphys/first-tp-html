@@ -169,11 +169,11 @@
 }
 
 .death-img1{
-    width: 9%;   
+    width: 22%;   
 }
 
 .death-img2{
-    width: 9%;
+    width: 22%;
     transform: rotateY(180deg);
 }
 
@@ -274,8 +274,7 @@ li {
 
 body {
     opacity: 0;
-    animation: fadeIn 0.5s;
-    animation-delay: 1s;
+    animation: fadeIn 2.5s;
     animation-fill-mode: forwards;
 }
 
@@ -340,6 +339,9 @@ audio {
         text-align: center;
         margin-top: -5%; 
     }
+}
+.avant-question-4 {
+    align-self: center
 }
 .question-4 {
     flex-direction: row;
