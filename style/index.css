@@ -339,10 +339,15 @@ audio {
         text-align: center;
         margin-top: -5%; 
     }
+    .block-question-2 {
+        text-align: center;
+        width: 60%;
+    }
 }
 .avant-question-4 {
     align-self: center
 }
+
 .question-4 {
     flex-direction: row;
     justify-content: center;
