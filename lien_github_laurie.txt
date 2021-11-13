@@ -1,0 +1,3 @@
+Il faut télécharger les musiques sur ce lien et les rajouter dans le dossier "music" du projet.
+
+https://github.com/Lunasphys/first-tp-html/tree/master/music

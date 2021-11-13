@@ -169,48 +169,29 @@
 }
 
 .death-img1{
-    display: flex;
-    width: 225px;
-    position: absolute;
-    bottom: 0px;
-    right: 17%;
+    width: 9%;   
 }
 
 .death-img2{
-    width: 225px;
-    display: flex;
-    width: 225 px;
-    position: absolute;
-    bottom: 0 px;
-    left: 17%;
-    bottom: 0%;
+    width: 9%;
     transform: rotateY(180deg);
 }
 
 .dragon-img1{
-    display: flex;
     width: 9%;
-    position: absolute;
-    bottom: -3%;
-    right: 61%;
     transform: translate(0%, -50%);
 }
 
 .dragon-img2{
-    display: flex;
     width: 9%;
-    position: absolute;
-    bottom: -3%;
-    right: 30%;
     transform: rotateY(180deg) translate(0%, -50%);
 }
 
 .adventurer{
     display: flex;
     width: 8%;
-    position: absolute;
+    position: fixed;
     bottom: 20%;
-    transform: translate(0%, 123%);
 }
 
 .content {
@@ -319,4 +300,54 @@ audio {
     top : 1%;
     left : 1%;
     position: fixed;
+}
+
+@media (max-width: 770px) {
+    .main-title {
+        margin-top: 20%;
+    }
+    .main-title-text {
+        font-size: 37px;
+        width: 100%;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    .subtitle-text {
+        margin-top: 4%;
+        width: 50%;
+    }
+    .container {
+        width: 100%;
+    }
+    ul {
+        width: 90%;
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+    .adventurer {
+        width: 20%;
+        bottom: 17%;
+    }
+    .death-img1, .death-img2 {
+        width: 44%;
+        bottom: 6%
+    }
+    .question-7 {
+        text-align: center;
+        margin-top: -5%;
+    }
+    .question-4 {
+        text-align: center;
+        margin-top: -5%; 
+    }
+}
+.question-4 {
+    flex-direction: row;
+    justify-content: center;
+    display: flex;
+}
+.question-6 {
+    flex-direction: row;
+    justify-content: center;
+    display: flex;
 }
